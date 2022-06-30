@@ -28,11 +28,11 @@ function ScrollCard() {
               <div className="group overflow-hidden relative max-w-md w-56 h-56 md:w-64 md:h-64 py-4 px-6 my-16 rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out object-contain">
                   <img src="https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Features" className='absolute inset-0 w-full h-full object-cover ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125' />
                   <div className="absolute inset-0 w-full h-full bg-teal-600 opacity-50 transition-opacity duration-500 group-hover:opacity-75" ></div>
-                  <Link to='/' className="absolute px-16 inset-x-0 bottom-[40%]">
-                      <div className="bg-white group-hover:bg-teal-900 group-hover:text-white rounded py-4 uppercase text-center font-bold text-gray-900">
-                          Robotic
-                      </div>
-                  </Link>
+                    <Link to='/' className="absolute px-16 inset-x-0 bottom-[40%]">
+                        <div className="bg-white group-hover:bg-teal-900 group-hover:text-white rounded py-4 uppercase text-center font-bold text-gray-900">
+                            Robotic
+                        </div>
+                    </Link>
               </div>
             </div>
             <div className="inline-block mr-4">
