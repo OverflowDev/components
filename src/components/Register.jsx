@@ -1,13 +1,7 @@
-import Navbar from "../layouts/Navbar"
 
 function Register() {
   return (
 		<div className="container mx-auto relative">
-
-        <div className="flex absolute inset-x-0 top-0">
-          {/* <div className="w-11/12 h-96 md:w-96 md:h-96 py-4 px-6 my-16 rounded-lg shadow-md bg-white"></div> */}
-          <Navbar />
-        </div>
 
 			<div className="flex items-center h-screen md:h-full md:flex md:items-center ">
 
