@@ -4,6 +4,7 @@ import {useState} from 'react'
 function Nav() {
 
   const [isOpen, setIsOpen] = useState(false)
+  console.log(isOpen)
 
   return (
     <div className='container'>
@@ -82,7 +83,8 @@ function Nav() {
 
           </div>
         </div>
-
+        
+        {/* condition ? <expression if true> : <expression if false></expression> */}
         {isOpen ? (
           <div className="md:hidden" id='mobile-menu'>
             <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">

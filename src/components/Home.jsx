@@ -25,6 +25,9 @@ function Home() {
         <Link to='/scalable' className='py-3 px-3 bg-gray-700 text-white'>
             Scalable
         </Link>
+        <Link to='/stepper' className='py-3 px-3 bg-gray-700 text-white'>
+            Stepper
+        </Link>
     </div>
   )
 }

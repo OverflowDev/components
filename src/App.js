@@ -7,6 +7,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import ScaleableCard from './components/ScaleableCard';
 import Nav from './components/Nav';
+import Stepper from './components/stepper/Stepper';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/scalable' element={<ScaleableCard />} />
+          <Route path='/stepper' element={<Stepper />} />
         </Routes>
       </div>
     </Router>
