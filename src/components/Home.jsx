@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Home() {
   return (
-    <div className='h-screen flex items-center justify-evenly first-letter:'>
+    <div className='h-screen flex flex-wrap items-center justify-evenly first-letter:'>
         <Link to='/cart-card' className='py-3 px-3 bg-gray-700 text-white'>
             Cart Card
         </Link>
@@ -27,6 +27,9 @@ function Home() {
         </Link>
         <Link to='/stepper' className='py-3 px-3 bg-gray-700 text-white'>
             Stepper
+        </Link>
+        <Link to='/darkmode' className='py-3 px-3 bg-gray-700 text-white'>
+            Dark mode
         </Link>
     </div>
   )

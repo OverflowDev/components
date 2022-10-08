@@ -8,11 +8,12 @@ import Register from './components/Register'
 import ScaleableCard from './components/ScaleableCard';
 import Nav from './components/Nav';
 import Stepper from './components/stepper/Stepper';
+import DarkMode from './components/DarkMode';
 
 function App() {
   return (
     <Router>
-      <div className="">
+      <div className="dark:bg-gray-800 bg-white">
         <Routes>
           <Route path='/' element={<Home />}  />
           <Route path='/cart-card' element={<CartCard />} />
@@ -23,6 +24,7 @@ function App() {
           <Route path='/register' element={<Register />} />
           <Route path='/scalable' element={<ScaleableCard />} />
           <Route path='/stepper' element={<Stepper />} />
+          <Route path='/darkmode' element={<DarkMode />} />
         </Routes>
       </div>
     </Router>
